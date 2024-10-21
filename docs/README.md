@@ -13,6 +13,8 @@ DATA_DIRECTORY/
 		├──...
 	└── ...
 ```
+Just execute the `run.sh` by order :)
+
 ===========
 Data Efficient and Weakly Supervised Computational Pathology on Whole Slide Images.
 *Nature Biomedical Engineering*
