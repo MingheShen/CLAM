@@ -1,5 +1,19 @@
 CLAM <img src="clam-logo.png" width="280px" align="right" />
 ===========
+A specific version which can process the download file of gdc-client directly.
+That is, the directory like following:
+```bash
+DATA_DIRECTORY/
+	├── fed5f7ea-43b0-4a72-92b6-3ec43fac6b60/
+		├──logs/
+		├──TCGA-G2-A3IE-01Z-00-DX1.DEEF9D35-CE4C-499F-9481-9E9E379694FC.jpg
+		├──TCGA-G2-A3IE-01Z-00-DX1.DEEF9D35-CE4C-499F-9481-9E9E379694FC.svs
+	├── 7c0c25e4-2f77-416c-9e3a-ab0870a57540/
+		├──logs/
+		├──...
+	└── ...
+```
+===========
 Data Efficient and Weakly Supervised Computational Pathology on Whole Slide Images.
 *Nature Biomedical Engineering*
 
