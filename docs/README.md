@@ -1,7 +1,7 @@
 CLAM <img src="clam-logo.png" width="280px" align="right" />
 ===========
 A specific version which can process the download file of gdc-client directly.
-That is, the directory like following:
+That is, the directory is like following:
 ```bash
 DATA_DIRECTORY/
 	├── fed5f7ea-43b0-4a72-92b6-3ec43fac6b60/
@@ -13,7 +13,7 @@ DATA_DIRECTORY/
 		├──...
 	└── ...
 ```
-Just execute the `run.sh` by order :)
+Just modify your work directory and then execute the `run.sh` by order :)
 
 ===========
 Data Efficient and Weakly Supervised Computational Pathology on Whole Slide Images.
