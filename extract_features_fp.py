@@ -100,6 +100,10 @@ if __name__ == '__main__':
 			print('skipped {}'.format(slide_id))
 			continue 
 
+		### MODIFICATION
+		bag_name = os.path.basename(bag_name)
+		### MODIFICATION
+		
 		output_path = os.path.join(args.feat_dir, 'h5_files', bag_name)
 		time_start = time.time()
 		wsi = openslide.open_slide(slide_file_path)
