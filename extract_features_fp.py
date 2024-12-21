@@ -96,7 +96,7 @@ if __name__ == '__main__':
 		print('\nprogress: {}/{}'.format(bag_candidate_idx, total))
 		print(slide_id)
 
-		if not args.no_auto_skip and slide_id+'.pt' in dest_files:
+		if not args.no_auto_skip and os.path.basename(slide_id+'.pt') in dest_files:
 			print('skipped {}'.format(slide_id))
 			continue 
 
