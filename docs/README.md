@@ -13,7 +13,7 @@ DATA_DIRECTORY/
 		├──...
 	└── ...
 ```
-Just modify your work directory and then execute the `run.sh` by order (enabled auto skip for processed files by default) :)
+Just modify your work directory and then execute the `run.sh` by order (enabled auto skip for processed files by default).
 
 ===========
 Data Efficient and Weakly Supervised Computational Pathology on Whole Slide Images.
