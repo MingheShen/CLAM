@@ -103,7 +103,7 @@ def seg_and_patch(source, save_dir, patch_save_dir, mask_save_dir, stitch_save_d
 		df.loc[idx, 'process'] = 0
 		slide_id, _ = os.path.splitext(slide)
 
-		if auto_skip and os.path.isfile(os.path.join(patch_save_dir, slide_id + '.h5')):
+		if auto_skip and os.path.isfile(os.path.join(patch_save_dir, os.path.basename(slide_id) + '.h5')):
 			print('{} already exist in destination location, skipped'.format(slide_id))
 			df.loc[idx, 'status'] = 'already_exist'
 			continue
