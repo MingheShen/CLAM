@@ -65,6 +65,8 @@ def seg_and_patch(source, save_dir, patch_save_dir, mask_save_dir, stitch_save_d
 			if filename.endswith(".svs"):
 				slides_path.append(os.path.join(home, filename))
 	slides = sorted(slides_path)
+	# seg_params = {'seg_level': -1, 'sthresh': 1, 'mthresh': 7, 'close': 4, 'use_otsu': False,
+	# 			  'keep_ids': 'none', 'exclude_ids': 'none'}
 	### MODIFICATION
 
 	# slides = [slide for slide in slides if os.path.isfile(os.path.join(source, slide))]
